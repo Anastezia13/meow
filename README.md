@@ -10,6 +10,8 @@ public static void main( String[] args {
 int num1 = getInt ();
 int num2 = getInt (); 
 char operation = getOperation();
+int result = calc(num1, num2, operation);
+System.out.print("Поздравляем! Вы выиграли " + result + " ААААААвтомобиииль(я/ей)!!!");
 
 }
 public static int getInt() {
